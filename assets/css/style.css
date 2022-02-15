@@ -6,11 +6,10 @@ body {
 
 
 .heaContainer {
+    max-width: 1400px;
     display: flex;
-    justify-content: space-around;
-    padding-bottom: 40px;
-    height: 220px;
-    margin: 25px 0;
+    height: 200px;
+    margin: 25px auto;
 }
 
 header figure img {
@@ -19,10 +18,12 @@ header figure img {
 
 header ul {
     display: flex;
+    margin-left: 500px;
 }
 header ul li {
     margin: 90px 30px;
     font-size: 20px;
+    transition: all 0.2s;
 }
 
 header ul li:hover {
@@ -56,7 +57,6 @@ header h1 {
     display: flex;
     justify-content: space-evenly;
 }
-
 .container section {
     padding-left: 80px;
 }
@@ -150,6 +150,74 @@ footer {
 footer p {
     text-align: center;
     padding-top: 45px;
+}
+
+
+
+
+
+@media (max-width: 1200px) {
+
+
+    
+    header figure img {
+        width: 310px;
+        margin-left: 85px;
+    }
+
+    header ul {
+        margin-left: 330px;
+    }
+    header ul li {
+        margin: 80px 20px;
+        font-size: 18px;
+    }
+    header ul li:hover {
+        font-size: 20px;
+    
+    }
+    header h1 {
+        font-size: 150px;
+    }
+    header h2 {
+        font-size: 55px;
+        transform: translateY(-95px);
+    }
+    .container section h2 {
+        font-size: 25px;
+    }
+    .container section p {
+        font-size: 18px;
+        width: 335px;
+        line-height: 24px;
+    }
+    
+}
+
+@media (max-width: 1020px){
+    footer {
+        width: 100%;
+    }
+    header ul {
+        margin-left: 270px;
+    }
+    header h1 {
+        font-size: 145px;
+    }
+     header h2 {
+        
+        font-size: 50px;
+        transform: translateY(-90px);
+        
+    }
+    .container section {
+        padding-left: 50px;
+    }
+    header figure img {
+        width: 310px;
+        margin-left: 70px;
+    }
+    
 }
 
 
