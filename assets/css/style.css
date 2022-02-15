@@ -230,4 +230,42 @@ body {
     
 }
 
+@media (max-width: 940px){
+    header ul {
+        margin-left: 140px;
+    }
+    header figure img {
+        margin-left: 80px;
+    }
+    
+}
 
+@media (max-width: 820px){
+    header ul {
+        margin-left: 90px;
+    }
+    header h1 {
+        font-size: 130px;
+    }
+    
+}
+@media (max-width: 780px){
+
+    header figure img {
+        width: 270px;
+    }
+    header ul {
+        margin-left: 35px;
+    }
+    .heaContainer {
+        height: 160px;
+    }
+    header h2 {
+        font-size: 45px;
+        transform: translateY(-78px);
+    }
+    header h1 {
+        font-size: 120px;
+    }
+    
+}
