@@ -16,7 +16,7 @@
 
 ### Status: *Em andamento 🛠️⚙️*
 <p> 
-    Pretendo fazer com que a página responsiva, se adaptando a vários formatos de tela, e também que o código fique mais simples. 
+    Pretendo fazer com que a página fique responsiva, se adaptando a vários formatos de tela, e também que o código fique mais simples. 
 </p>
 
 ![Animação](https://user-images.githubusercontent.com/98659450/153971585-5bce1f31-4759-4851-b431-8bf4f13fd7ec.gif)
